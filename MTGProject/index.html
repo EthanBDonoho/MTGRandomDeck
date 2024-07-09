@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Generator</title>
+    <link rel="stylesheet" href="deck.css">
+  </head>
+
+<html>
+<body>
+<div class="center">
+  
+<select id="sets">
+<option>Pick a set</option>
+</select>
+
+<input type="checkbox" id="0" />
+<label for="0"><img src="green.svg" /></label>
+<input type="checkbox" id="1" />
+<label for="1"><img src="blue.svg" /></label>
+<input type="checkbox" id="2" />
+<label for="2"><img src="red.svg" /></label>
+<input type="checkbox" id="3" />
+<label for="3"><img src="black.svg" /></label>
+<input type="checkbox" id="4" />
+<label for="4"><img src="white.svg" /></label>
+
+<button type="button" onclick="manaColors()">Load Deck</button>
+
+</div>
+
+<div class="cardBox">
+<div id="demo" class = "cards"></div>
+</div>
+
+<script src="deckGenerator.js"></script>
+</body>
+</html>
