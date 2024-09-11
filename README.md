@@ -1,12 +1,12 @@
 # MTGRandomDeck
 Creates a random deck from a MTG set utilizing the ScryfallAPI
 
-#Learned
+# Learned
 Refined the sytax and fundamentals of working in Javascript. 
 
 Learned about promises and how to utilize them.
 
-#To-Do
+# To-Do
 
 Optimize code for picking cards
 
